@@ -34,6 +34,10 @@
                     }
                 }
             });
+
+            var hightlightEditingFieldsAction = e.GetById(DevExpress.Report.Preview.ActionId.HightlightEditingFields);
+            if (hightlightEditingFieldsAction)
+                hightlightEditingFieldsAction.visible = false;
         }
     </script>
     <dx:ASPxWebDocumentViewer ID="ASPxWebDocumentViewer1" runat="server">
