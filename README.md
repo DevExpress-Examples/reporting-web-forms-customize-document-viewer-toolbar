@@ -1,4 +1,4 @@
-## How to customize the Document Viewer toolbar
+## How to customize the Web Document Viewer's toolbar
 
 This example demonstrates how to use the client-side [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientWebDocumentViewer.CustomizeMenuActions) event to hide the existing **Highlight Editing Fields** toolbar command and add a new **Run Slide Show** command that navigates through document pages. 
 
