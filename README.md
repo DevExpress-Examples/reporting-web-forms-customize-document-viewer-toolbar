@@ -1,12 +1,21 @@
-## How to customize the Web Document Viewer's toolbar
+<!-- default file list -->
+*Files to look at*:
+* [Viewer.aspx](./CS/DXWebApplication1/Viewer.aspx)
+<!-- default file list end -->
 
-This example demonstrates how to use the client-side [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientWebDocumentViewer.CustomizeMenuActions) event to hide the existing **Highlight Editing Fields** toolbar command and add a new **Run Slide Show** command that navigates through document pages. 
+## How to Customize the Web Document Viewer's Toolbar
 
-To obtain the existing command, call the event argument's [GetById](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientCustomizeMenuActionsEventArgs.GetById(System.String)) method  and pass the command ID as a parameter. Then, disable the obtained command's **visible** property to hide it.
+This example demonstrates how to handle the client-side [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientWebDocumentViewer.CustomizeMenuActions) event to hide the existing **Highlight Editing Fields** toolbar command and add a new **Run Slide Show** command that navigates through pages. 
 
-To add a new toolbar command, specify its [settings](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientMenuAction._members) and push it to the event argument's **Actions** collection. 
+To get a command, call the event argument's [GetById](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientCustomizeMenuActionsEventArgs.GetById(System.String)) method  and pass the command ID as a parameter. To hide a command and its toolbar button, set the command's **visible** property to **false**.
 
-See the following documentation topics for more information:
+To add a new toolbar command, perform the following steps:
+- create an image template (in this example, id = "slideshow")
+- specify all command settings including the
+ ```imageTemplateName: "slideshow";```
+- call the **push** method to add a command to the event argument's **Actions** collection. 
+
+**See also:**
 
 * [Customize the Document Viewer Toolbar (ASP.NET WebForms)](https://docs.devexpress.com/XtraReports/117150/create-end-user-reporting-applications/web-reporting/asp-net-webforms-reporting/document-viewer/html5-document-viewer/api-and-customization/customize-the-document-viewer-toolbar)
 * [Customize the Document Viewer Toolbar (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/10043/create-end-user-reporting-applications/web-reporting/asp-net-mvc-reporting/document-viewer/html5-document-viewer/api-and-customization/customize-the-document-viewer-toolbar)
