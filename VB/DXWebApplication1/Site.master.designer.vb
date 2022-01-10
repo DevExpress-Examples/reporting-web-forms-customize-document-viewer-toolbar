@@ -9,25 +9,25 @@
 
 Namespace DXWebApplication1
 
-    Partial Public Class SiteMaster
+	Partial Public Class SiteMaster
 
-        ''' <summary>
-        ''' Body control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected Body As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+		''' <summary>
+		''' Body control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected Body As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
-        ''' <summary>
-        ''' form1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+		''' <summary>
+		''' form1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-    End Class
+	End Class
 End Namespace

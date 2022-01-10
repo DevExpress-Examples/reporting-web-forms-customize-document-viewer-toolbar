@@ -9,15 +9,15 @@
 
 Namespace DXWebApplication1
 
-    Partial Public Class Viewer
+	Partial Public Class Viewer
 
-        ''' <summary>
-        ''' ASPxWebDocumentViewer1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected ASPxWebDocumentViewer1 As Global.DevExpress.XtraReports.Web.ASPxWebDocumentViewer
-    End Class
+		''' <summary>
+		''' ASPxWebDocumentViewer1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected ASPxWebDocumentViewer1 As Global.DevExpress.XtraReports.Web.ASPxWebDocumentViewer
+	End Class
 End Namespace
