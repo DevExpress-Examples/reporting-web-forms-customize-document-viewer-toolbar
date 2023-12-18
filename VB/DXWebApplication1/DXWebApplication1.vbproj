@@ -143,7 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\NWind.mdf" />
-    <Content Include="App_Data\NWind_log.ldf">
       <DependentUpon>NWind.mdf</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
