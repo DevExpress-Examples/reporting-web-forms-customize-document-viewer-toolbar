@@ -296,5 +296,8 @@ __pycache__/
 #ExampleRangeTester artifacts
 TesterMetadata.xml
 
+# Database files
+*.ldf
+
 # Backup files
 *.bak
