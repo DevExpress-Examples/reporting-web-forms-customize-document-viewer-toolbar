@@ -124,8 +124,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\NWind.mdf" />
-      <DependentUpon>NWind.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Viewer.aspx" />
